@@ -1,0 +1,118 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+  }
+
+  ol {
+    list-style-type: none;
+  }
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: #fafafa;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #000000;
+  }
+
+  /* Estilos para as abas de conteúdo */
+  .content {
+    display: none;
+  }
+
+  .content.active {
+    display: block;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1 {
+    margin: 15px;
+    color: white;
+    text-decoration: underline;
+  }
+
+  h2 {
+    text-decoration: bold;
+  }
+
+  p { 
+    margin: 10px;
+  }
+
+  main {
+    margin: 5px;
+  }
+
+  .project {
+    margin-bottom: 20px;
+  }
+
+  .project h2 {
+    margin-top: 20px;
+  }
+
+  .project p {
+    margin-bottom: 10px;
+  }
+
+  /*#itemA {
+    max-height:5px;
+    max-width: 2px;
+    display: inline;
+  }*/
+
+  .item1 {
+    max-height: 7px;
+    max-width: 4px;
+    width: 100%;
+    height: auto;
+    display: inline;
+  }
+  .IMGvicky {
+    max-width: 200px;
+    height: auto;
+  }
+
+  #itemA{
+    max-height: 7px;
+    max-width: 4px;
+    width: 100%;
+    height: auto;
+    display: inline;
+  }
+.dump {
+  display: inline-block;
+  position: 200px;
+  max-width: 200px;
+  height: auto;
+  margin: 10px;
+  padding: 4px;
+}
+
+.IMGjobs {
+  display: inline-block;
+  max-width: 200px;
+  height: auto;
+}
